@@ -16,6 +16,10 @@ const userSchema=new mongoose.Schema({
         type: String,
         required:true,
     },
+    avatar:{
+        type: String,
+        default:'https://img.freepik.com/premium-photo/cartoon-character-from-anime-called-he-is-character_662214-189789.jpg'
+    },
 
 }, {timestamps:true});
 
